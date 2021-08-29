@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* global config */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* global styling */
+body {
+  line-height: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+p{
+    margin-top: 5px;
+}
+#home {
+  height: 100vh;
+}
+
+/* Utility Classes */
+.container h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+.container .text-primary {
+  text-align: center;
+  padding-top: 51px;
+}
+.text-primary {
+  color: rgb(154, 205, 50);
+  margin-left: 0;
+}
+.bg-light {
+  height: 310px;
+  background-color: rgb(221, 215, 215);
+}
+.l-heading {
+  color: white;
+  font-size: 3rem;
+  padding-bottom: 60px;
+}
+.m-heading {
+  padding-top: 40px;
+  padding-bottom:60px;
+}
+.lead {
+  color: white;
+  font-size: 1.4rem;
+  padding-bottom: 50px;
+}
+.py-1 img {
+  max-width: 100px;
+}
+.logo {
+  color: white;
+  text-align: left;
+}
+/* Navbar */
+#navbar {
+  display: flex;
+  position: sticky;
+  top: 0;
+  background: rgb(15, 15, 15);
+  color: #fff;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+}
+
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  margin: 20px;
+  text-align: center;
+  float: left;
+}
+#navbar h1 {
+  padding-top: 20px;
+  padding-left: 10px;
+}
+#navbar .logo {
+  float: left;
+}
+/* Showcase */
+#showcase {
+  height: 600px;
+  text-align: center;
+  background: url("../img/main-background.jpg") no-repeat center center/ cover;
+}
+#showcase .showcase-content {
+  padding-top: 220px;
+  background: rgba(15, 14, 14, 0.4);
+  height: 600px;
+}
+.showcase-content a {
+  background-color: yellowgreen;
+  padding: 10px;
+  border-radius: 10%;
+}
+/* Section: What We Do */
+#what .items {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+#what .items .item {
+  width: 300px;
+}
+#what .items .item i {
+  background-color: yellowgreen;
+  padding: 15px;
+  border-radius: 100%;
+}
+/* Section: Who We Are */
+#who {
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
+#who .who-img {
+  background: url("../img/article.svg");
+  background-repeat: no-repeat;
+  background-size: 650px 600px;
+  overflow: hidden;
+  flex: 1;
+  margin-right: 30px;
+  flex-wrap: wrap;
+}
+.who-text {
+  flex: 1;
+}
+.who-text li {
+  list-style: none;
+  border-bottom: dotted 1px;
+  line-height: 2.5rem;
+  flex-wrap: wrap;
+}
+#who .who-text .m-heading {
+  font-size: 2rem;
+}
+#who .who-text h3 {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+#who .list {
+  width: 605px;
+}
+/* Section: Clients */
+#clients .items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+#clients {
+  height: 320px;
+}
+#clients .container .m-heading {
+  margin-top: 55px;
+}
+#main-footer .container {
+  text-align: center;
+  padding-bottom: 30px;
+}
